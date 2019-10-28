@@ -10,5 +10,11 @@ df_SA.head(5)
 
 print(df_SA.isnull().any())
 
-
-df_SA.columns = []
+# Renaming columns
+df_SA.columns = ['ID', 'Name', 'Region', 'CoolName', 'Electricity', 'Electricity_R', 'Electricity_U', 'AFR', 'ADR', 'ADR_o', 'ADR_y', \
+'PrimarySector', 'AFP', 'BirthRate', 'Births_SHS', 'DeathRate', 'Edu_Dr', 'Edu_B', 'Edu_M', 'Edu_LSec', 'Edu_PSec', 'Edu_Primary', \
+'Edu_Tertiary', 'Edu_USec', 'Emp_Agriculture', 'Emp_Industry', 'Emp_Services', 'FertilityRate', 'GDP', 'GDP_Growth', 'GINI', \
+'GovExp_Edu', 'Income_420', 'Income_H20', 'Income_L20', 'Income_220', 'Income_320', 'Industry', 'LifeExpectancy', 'LitRate_a', \
+'LitRate_y', 'MerchTrade', 'MilitaryExp', 'MobileSubs', 'Poverty_OOPHealthcareExp', 'PopYouth', 'PopWorking', 'PopSenior', 'PopDensity', \
+'PopGrowth', 'PopLarge', 'PopSlums', 'PopF', 'PopM', 'PopTotal', 'ExtremePoverty', 'Poverty', 'NationalPoverty', 'HIV', \
+'Undernourishment', 'Underweight_5y', 'PopRural', 'Services_ValAdd', 'Area', 'TaxRev', 'PopUrban_Growth']
