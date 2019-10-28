@@ -5,6 +5,9 @@ import numpy as np
 df = pd.read_excel("WDIW.xlsx")
 print(df.head)
 
+al_df  = (df['Cool Name'] == 'Ironhide')
+print(al_df)
+
 df_SA = df[al_df]
 df_SA.head(5)
 
