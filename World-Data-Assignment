@@ -9,3 +9,6 @@ df_SA = df[al_df]
 df_SA.head(5)
 
 print(df_SA.isnull().any())
+
+
+df_SA.columns = []
